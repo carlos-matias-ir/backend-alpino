@@ -1,0 +1,25 @@
+{
+  "name": "alpino",
+  "version": "1.0.0",
+  "description": "Alpino API - node express mongodb",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "ts-node ./lib/server.ts",
+    "dev": "tsc && nodemon ./dist/server.js",
+    "prod": "tsc && nodemon ./dist/server.js"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "express"
+  ],
+  "author": "Carlos Matias",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "nodemon": "^2.0.4"
+  }
+}
